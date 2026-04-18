@@ -8,11 +8,11 @@ Real-time multimodal emotion recognition that combines **speech** and **facial e
 ┌─────────────────────────────────────────────────────────────────┐
 │                    Multimodal Emotion Model                     │
 │                                                                 │
-│  Audio (wav) ──► WavLM-Base+ ──► Attention Pooling ──► 768d    │
+│  Audio (wav) ──► WavLM-Base+ ──► Attention Pooling ──► 768d     │
 │                                                         │       │
 │                                                    GatedFusion  │
 │                                                         │       │
-│  Video (T,C,H,W) ──► ViT-Face-Expression ──►           │       │
+│  Video (T,C,H,W) ──► ViT-Face-Expression ──►           │        │
 │       + Confidence-Weighted Temporal Pooling ──► 768d   │       │
 │                                                         ▼       │
 │                                              Classifier ──► 4   │
